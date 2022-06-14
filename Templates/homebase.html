@@ -25,4 +25,21 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    {% block head %}   {% endblock %}
+    
 </head>
+    {% block navbar %}  {% endblock %}
+    {% block slider %}  {% endblock %}
+    {% block content %}  {% endblock %}
+    {% block body %}  {% endblock %}
+    {% include 'footer.html' %}
+    {% block footer  %}   {% endblock %}
+<body>
+
+    <body>
+
+
+
+
+</html>
